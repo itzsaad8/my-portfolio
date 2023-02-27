@@ -1,0 +1,276 @@
+.herosection {
+    background: linear-gradient(-90deg, #111156, #14163f);
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 75% 91%, 50% 100%, 50% 82%, 0 82%, 0% 35%, 0 0);
+
+
+
+
+}
+
+/* clip-path: polygon(0 1%, 100% 0, 100% 81%, 46% 100%, 0 79%   */
+.nav-items {
+    float: left;
+    color: white;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-family: "ubunto";
+
+}
+
+.nav-items:hover {
+    border-bottom: 1px solid white;
+    color: #3d3d3ef4;
+}
+
+.brand-name {
+
+    color: white;
+    font-size: 1.8rem;
+    font-family: "oswald";
+}
+
+.px-10 {
+    padding-inline: 50px;
+}
+
+.herosection2 {
+    padding-top: 70px;
+}
+
+.text-section {
+    padding-top: 0px;
+    text-align: center;
+}
+
+.im-text {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.im-name-text {
+    font-size: 1.5rem;
+    color: rgb(226, 231, 75);
+    /* font-size: 20px; */
+}
+
+.text-enthusiastic {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.text-subheading {
+    font-family: "sans sarif";
+    color: #fff;
+    font-size: 1rem;
+}
+
+.btn-hire-me {
+    color: #fff;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    background: transparent;
+    margin-inline: 12px;
+    padding: 5px 40px;
+    border: 2px solid white;
+    transition: all 0.3s ease-in-out;
+    animation: popup 1s ease-in-out infinite;
+
+}
+
+.btn-hire-me:hover {
+    transform: translateY(-5px);
+    color: #1c1c1c;
+    background-color: rgb(226, 231, 75);
+}
+
+.btn-resume {
+    color: #fff;
+    font-size: 1.2rem;
+    background: transparent;
+    border-radius: 25px;
+    margin-inline: 12px;
+    padding: 5px 40px;
+    border: 2px solid rgb(254, 251, 251);
+    background: red;
+    transition: all 0.3s ease-in-out;
+
+
+}
+
+.btn-resume:hover {
+    transform: translateY(-5px);
+
+}
+
+.img-1 {
+    width: 300px;
+    object-fit: contain;
+
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    /* border: 1px solid white; */
+}
+
+.nav-bar {
+    margin-right: 6px;
+}
+
+
+@keyframes popup {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+/* about section   */
+
+.aboutme-text {
+    font-weight: 700;
+    font-family: "ubuntu";
+    font-size: 3rem;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+
+.why-me-text {
+    text-align: center;
+    font-weight: 700;
+    font-family: "ubuntu";
+    font-size: 1rem;
+    text-transform: capitalize;
+    opacity: 0.8;
+}
+
+.about-me {
+    /* height: 500px; */
+    width: 900px;
+    margin-inline: auto;
+}
+
+.about-me-text {
+    font-size: 1.3rem;
+    font-family: "Ubuntu";
+    padding-block: 12px;
+    text-align: justify;
+    opacity: 0.9;
+}
+
+.highlights {
+    padding-top: 12px;
+
+
+}
+
+.text-about-hl {
+    font-size: 1.5rem;
+    font-family: "Ubuntu";
+    font-weight: 900;
+    /* padding-block: 12px; */
+    /* opacity: 0.8; */
+    /* margin-top: 40px; */
+}
+
+.hl-list {
+    font-size: 1.1rem;
+    font-family: "Ubuntu";
+
+}
+
+/* Resume Section    */
+
+.options-text {
+    width: 1%;
+    color: rgb(31, 30, 30);
+    padding-block: 20px;
+    padding-inline: 20px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    /* margin-inline: 24px; */
+}
+
+.options-text:hover {
+    width: 100%;
+    background: rgb(44, 36, 101);
+    color: white;
+}
+
+.icons-span {
+    margin-block: 20px;
+    margin-inline: 20px;
+}
+
+.selected {
+    width: 100%;
+    background: rgb(44, 36, 101);
+    color: white;
+}
+
+.bg-new {
+
+    background: rgb(35, 29, 85);
+
+}
+
+.resume-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: rgb(18, 28, 64);
+    color: white;
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
+
+}
+
+.resume-section1 {
+    margin-top: 32px;
+    background: white;
+    box-shadow: 10px 10px 32px 3px #353434;
+}
+
+/* css about my contact   */
+.contact-me-part {
+    color: rgb(14, 13, 13);
+    /* padding-bottom: 20px; */
+    padding-top: -30px;
+}
+
+.relative-bg {
+    clip-path: polygon(0 5%, 100% 20%, 100% 80%, 0 95%);
+    background: rgb(22, 28, 54);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -4;
+    /* margin-top: 22px; */
+
+}
+
+.contact-inner-part {
+    padding-block: 90px;
+    color: white;
+}
+
+/* mobile view   */
+.px-9 {
+    /* padding-top: 12px; */
+    padding-inline: 40px;
+    margin-right: -90px;
+}
+
+@media all and (max-width:786px) {}

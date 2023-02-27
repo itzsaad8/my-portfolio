@@ -1,0 +1,31 @@
+.contact-me-card{
+    background: #1c1c1c;
+    box-shadow: 10px 10px 63px rgb(180, 177, 177);
+    width: 80%;
+    height: 410px;
+    margin-inline: auto;
+   
+}
+.get-in-touch{
+    color: white;
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 2rem;
+}
+.input-groups{
+    border: none;
+    border-radius: 15px;
+    padding: 10px 8px;
+    
+    
+    
+}
+.input-group{
+    color: white;
+    /* padding-top: -5px; */
+    font-size: 1rem;
+    
+}
+.new{
+    padding-top: -102px;
+}

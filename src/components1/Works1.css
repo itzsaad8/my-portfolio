@@ -1,0 +1,28 @@
+.Works{
+    font-family: "Ubuntu";
+    color: rgb(93, 94, 89);
+    font-size: 1rem;
+    font-weight: 800;
+}
+.cpny-name{
+    font-family: "Ubuntu";
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #9fd629;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+}
+.experience
+{
+    font-family: monospace;
+    font-size: 1rem;
+    color: #1c1c1c;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background: rgb(104, 104, 102);
+}
+.position{
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #1c1c1c;
+}

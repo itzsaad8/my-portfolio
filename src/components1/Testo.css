@@ -1,0 +1,35 @@
+.name1{
+    padding-top: 2px;
+    font-family: "Ubuntu";
+    font-size: 1.3rem;
+    font-weight: 800;
+    padding-bottom: 12px;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 42%;
+    text-decoration: underline;
+    text-transform: capitalize;
+     
+}
+.test-text{
+    font-weight: 700;
+    font-family: "ubuntu";
+    font-size: 3rem;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-align: center;
+   
+
+}
+.nameee{
+    /* justify-content: center;
+    align-items: center; */
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    justify-content: center;
+    border-radius: 0px 35px 35px 35px;
+    font-size: 1rem;
+    
+    
+}
